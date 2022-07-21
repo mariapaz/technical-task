@@ -1,0 +1,54 @@
+.poster {
+  width: 50em;
+  height: 70em;
+  margin: 2rem auto;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid darkgrey;
+  background-color: aliceblue;
+}
+
+.bars {
+  display: flex;
+  height: 40em;
+  transform: skew(323deg, 40deg);
+  transform-origin: bottom;
+  position: absolute;
+  top: 127px;
+  left: -63px;
+}
+
+.bar:nth-child(3n-2) {
+  width: 4rem;
+  height: 100%;
+  background-color: black;
+}
+.bar:nth-child(3n + 2) {
+  width: 2rem;
+  height: 50%;
+  background-color: darkred;
+}
+.bar:nth-child(3n) {
+  width: 2rem;
+  height: 50%;
+  background-color: darkgreen;
+}
+
+.self-center {
+  align-self: center;
+}
+.self-end {
+  align-self: flex-end;
+}
+.info {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+.info div {
+  padding: 1rem;
+  width: 25%;
+}
+.info p {
+  margin: 0 0 0.5rem 0;
+}
