@@ -1,6 +1,6 @@
 # Technical Challenge
 ## Part 1
-Replicate a modernist poster
+Replicate a modernist poster.
 
 ## Part 2
 Create a HTML page with a functional stopwatch. The stopwatch must have the following features:
