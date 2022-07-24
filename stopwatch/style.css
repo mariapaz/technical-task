@@ -29,3 +29,12 @@ button{
     width: 8em;
     box-shadow: 0 3px 6px rgb(0 0 0 / 25%);
 }
+@media (hover: hover) {
+    button:hover{
+        background: #393c93;
+    }
+
+    .button:active {
+        background: #12122f;
+    }
+}
